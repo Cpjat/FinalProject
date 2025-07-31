@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-export const dbConnection = ()=>{
+export const databaseConnection = ()=>{
     mongoose.connect(process.env.MONGO_URI, {
         dbName: "Restaurant",
     }).then(()=>{

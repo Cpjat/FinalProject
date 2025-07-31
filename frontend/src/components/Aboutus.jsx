@@ -1,13 +1,13 @@
 import React from "react";
 import { data } from "../restApi.json";
 
-const WhoAreWe = () => {
+const Aboutus = () => {
   return (
-    <section className="who_are_we" id="who_are_we">
+    <section className="Aboutus" id="Aboutus">
         <div className="container">
             <div className="text_banner">
                 {
-                    data[0].who_we_are.slice(0,2).map(element=>{
+                    data[0].oursite.slice(0,2).map(element=>{
                         return(
                             <div className="card" key={element.id}>
                                 <h1 style={{fontWeight:"300"}} className="heading">{element.number}</h1>
@@ -18,12 +18,12 @@ const WhoAreWe = () => {
                 }
             </div>
             <div className="image_banner">
-                <img src="/center.svg" alt="center" className="gradient_bg"/>
-                <img src="/whoweare.png" alt="who" />
+                
+                <img src="/aboutus.jpg" alt="aboutus" />
             </div>
              <div className="text_banner">
                 {
-                    data[0].who_we_are.slice(2).map(element=>{
+                    data[0].oursite.slice(2).map(element=>{
                         return(
                             <div className="card" key={element.id}>
                                 <h1 style={{fontWeight:"300"}} className="heading">{element.number}</h1>
@@ -38,4 +38,4 @@ const WhoAreWe = () => {
   )
 }
 
-export default WhoAreWe
+export default Aboutus

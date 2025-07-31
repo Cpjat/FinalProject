@@ -41,13 +41,12 @@ const Reservation = () => {
   return (
     <section className="reservation" id="reservation">
       <div className="container">
-        <div className="banner">
-          <img src="/reservation.png" alt="reservation" />
-        </div>
+        
         <div className="banner">
           <div className="reservation_form_box">
-            <h1>Make A Reservation</h1>
-            <p>For Query,Please Call</p>
+           
+            <h1>Book Your Table</h1>
+            <p></p>
             <form action="">
               <div>
                 <input type="text" placeholder="First Name" value={firstName} onChange={(e)=> setFirstName(e.target.value)}/>
@@ -59,7 +58,7 @@ const Reservation = () => {
               </div>
               <div>
                 <input type="email" placeholder="Email" className="email_tag" value={email} onChange={(e)=>setEmail(e.target.value)} />
-                <input type="number" placeholder="Number" value={phone} onChange={(e)=>setPhone(e.target.value)} />
+                <input type="number" placeholder="Phone Number" value={phone} onChange={(e)=>setPhone(e.target.value)} />
                 
               </div>
               <button type="submit" onClick={handleReservation}> Rserve Now <span><HiOutlineArrowNarrowRight/></span></button>

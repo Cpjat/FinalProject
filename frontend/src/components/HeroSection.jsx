@@ -9,9 +9,9 @@ const HeroSection = () => {
         <div className="container">
             <div className="banner">
                 <div className="largeBox">
-                    <h1 className="title">Delicious</h1>
-                    <h1 className="title">Delectable</h1>
-                    <h1 className="title">Divine</h1>
+                    <h1 className="title">Feel</h1>
+                    <h1 className="title">The</h1>
+                    <h1 className="title">Taste</h1>
                 </div>
                 <div className="combined_boxes">
                     <div className="imageBox">

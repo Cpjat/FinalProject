@@ -1,22 +1,19 @@
 {
     "data": [
-        {"ourQualities" : [
+        {"info" : [
             {
                 "id": 1,
-                "image": "./quality_food.svg",
-                "title": "QUALITY FOOD",
+                "title": "BETTER FOOD",
                 "description": "We use only the freshest ingredients, sourced locally and cooked with care." 
             },
             {
                 "id": 2,
-                "image": "./super_taste.svg",
-                "title": "SUPER TASTE",
+                "title": "BETTER TASTE",
                 "description": "Our chefs blend spices, textures, and love to bring you unforgettable taste." 
             },
             {
                 "id": 3,
-                "image": "./fast_delivery.svg",
-                "title": "ROYAL SERVICE",
+                "title": "BETTER SERVICE",
                 "description": "From warm greetings to prompt service, your comfort is our highest priority. " 
             }
         ],
@@ -73,63 +70,32 @@
         "team": [
             {
                 "id": 1,
-                "image": "./team_member_1.png",
+                "image": "./team.jpg",
                 "name": "JIVANRAM",
                 "designation": "Founder & Head Chef"
             },
             {
                 "id": 2,
-                "image": "./team_member_2.png",
-                "name": "BEGARAM",
+                "image": "./team.jpg",
+                "name": "Pahle wala chief hu",
                 "designation": "Sous Chef"
             },
             {
                 "id": 3,
-                "image": "./team_member_3.png",
-                "name": "NATTU KAKA",
+                "image": "./team.jpg",
+                "name": "Array bhai wo hi hun",
                 "designation": "Fast Food Chef"
             },
             {
                 "id": 4,
-                "image": "./team_member_4.png",
+                "image": "./team.jpg",
                 "name": "KISHAN",
                 "designation": "Senior Chef"
             }
         ],
-        "testimonials": [
-            {
-                "id": 1,
-                "image": "./review1.png",
-                "description": "Morbi nulla nec dui lacus, in. Libero in pretium metus massa. Sodales dignissim vitae mauris varius faucibus. Eleifend dui, non laoreet ac luctus facilisis diam. Enim scelerisque vel at id viverra tellus.",
-                "rating": 4,
-                "userName": "Jane Cooper"
-            },
-            {
-                "id": 2,
-                "image": "./review2.png",
-                "description": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus.",
-                "rating": 4.5,
-                "userName": "Esther Howard"
-            },
-            {
-                "id": 3,
-                "image": "./review3.png",
-                "description": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus.",
-                "rating": 5,
-                "userName": "Guy Hawkins"
-            }
-        ],
-        "who_we_are": [
-            {
-                "id": 1,
-                "number": "14",
-                "title": "Restaurants"
-            },
-            {
-                "id": 2,
-                "number": "20",
-                "title": "Chef In Kitchen"
-            },
+        
+        "oursite": [
+            
             {
                 "id": 3,
                 "number": "08",

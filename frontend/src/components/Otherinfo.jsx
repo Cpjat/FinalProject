@@ -1,14 +1,14 @@
 import React from "react";
 import {data} from "../restApi.json";
 
-const Qualities = () => {
+const Otherinfo = () => {
   return (
-    <section className="qualities" id="qualities">
+    <section className="otherinfo" id="otherinfo">
         <div className="container">
             {
-                data[0].ourQualities.map(element=>(
+                data[0].info.map(element=>(
                     <div className="card" key={element.id}>
-                        <img src={element.image} alt={element.title} />
+                        
                         <p className="title">{element.title}</p>
                         <p className="description">{element.description}</p>
                     </div>
@@ -20,4 +20,4 @@ const Qualities = () => {
   )
 }
 
-export default Qualities
+export default Otherinfo
